@@ -5,7 +5,7 @@ using namespace std;
 //2.7.1
 void test1()
 {
-	cout << "name£ºtest£¬address£ºtest" << endl;
+	cout << "name:test,address:test" << endl;
 }
 
 //2.7.2
@@ -31,7 +31,7 @@ void test3_2()
 void test4()
 {
 	int age;
-	cout << "Enter your age£º";
+	cout << "Enter your age:";
 	cin >> age;
 	cout << age << " years are equal to " << age * 12 << " months" << endl;
 }
