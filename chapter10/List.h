@@ -6,6 +6,7 @@ class List
 {
 public:
     List(int l=30);
+    ~List();
     bool add(Item x);
     bool isEmpty() const;
     bool isFull() const;

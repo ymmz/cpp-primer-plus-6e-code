@@ -8,6 +8,10 @@ List::List(int l)
     data=new Item[l];
     num=0;
 }
+List::~List()
+{
+    delete[] data;
+}
 bool List::add(Item x)
 {
     if(num>=len)
